@@ -117,7 +117,7 @@ class _GroceryListState extends State<GroceryList> {
                     ),
                     trailing: Text(_groceryItems[index].quantity.toString()),
                     title: Text(
-                      groceryItems[index].name,
+                      _groceryItems[index].name,
                     )),
               ));
     }
